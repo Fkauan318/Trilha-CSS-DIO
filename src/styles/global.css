@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #33a8db;
+  border-top: 1px solid #33a8db;;
+  width: 1348px;
+  height: 400px;
+}
+
+.banner {
+  background-image: url(../assets/img/banner.png), linear-gradient( rgba(0,0,0,0.7), rgba(51,168,219,0.2), rgba(0,0,0,0.7));
+  background-size: 120%;
+  background-repeat: no-repeat;
+  width: 1348px;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 290px;
+}
+
+.logo img {
+  width: 200px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 24px;
+  color: transparent;
+  background: -webkit-linear-gradient(#33a8db, #1572b7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.banner p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.banner button {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 44px;
+  color: #31a8bb;
+  background-color: transparent;
+  letter-spacing: 0.30rem;
+  border-image: linear-gradient(#3ba1cd, #1572b7);
+  border-image-slice: 10;
+  padding: 16px 44px;
+  transition: all 0.25s ease-in-out 0s;
+  margin-bottom: 68px;
+}
+
+.banner button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-image: linear-gradient(#3ba1cd, #1572b7);
+}
+
+#course-content {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+#course-content h2 {
+  text-transform: uppercase;
+  font-size: 1.50rem;
+  color: #33a8db;
+  font-weight: bold;
+  letter-spacing: 0.27rem;
+  margin-bottom: 30px;
+}
+
+#course-content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.modules-list {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.module {
+  border: 1px solid #31a8bb;
+  background-color: #252525;
+  border-radius: 58px;
+  padding: 9px 0;
+  width: 500px;
+  margin-top: 15px;
+  box-shadow: inset -2px 6px 4px rgba( 0 , 0 , 0 , 0.4);
+}
+
+.module span {
+  color: #33a8db;
+}
+
+#transform-world {
+  width: 1349px;
+  height: 400px;
+  background-image: url(../assets/img/woman-code.png);
+  text-align: flex-start;
+  justify-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 1px solid #33a8db;
+}
+
+#transform-world p {
+  margin-top: 90px;
+  margin-left: 200px;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3rem;
+  color: #ffffff;
+  max-width: 235px;
+  max-height: 200px;
+  text-shadow: 3px 0px 0px #33a8db;
+  position: absolute;
+}
+
+#professional-challenges {
+  text-align: center;
+  justify-content: center;
+  border-bottom: 1px solid #33a8db;
+  width: 1349px;
+  height: 850px;
+}
+
+#professional-challenges h2 {
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-left: 350px;
+  color: #33a8bb;
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: 0.35rem;
+  max-width: 700px;
+  max-height: 200px;
+  text-align: center;
+  justify-content: center;
+}
+
+#professional-challenges img {
+  margin-top: 50px;
+  width: 50%;
+}
+
+#professional-challenges p {
+  margin-top: 40px;
+  margin-left: 325px;
+  font-size: 1rem;
+  color: #a9a9a9;
+  max-width: 700px;
+  max-height: 700px;
+}
+
+footer {
+  width: 1349px;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient( rgba( 0, 0 , 0, 0.2), rgba(51,168,219,0.2));
+}
+
+footer img {
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 1rem;
+  font-weight: 25;
+}
+
+footer a {
+  font-weight: 400;
+  color: #33a8bb;
+}
